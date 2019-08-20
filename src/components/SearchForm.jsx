@@ -20,11 +20,6 @@ const useStyles = makeStyles({
   },
   iconButton: {
     padding: 10
-  },
-  divider: {
-    width: 1,
-    height: 28,
-    margin: 4
   }
 })
 
@@ -60,7 +55,7 @@ export default function SearchForm (props) {
         onChange={onChange}
         className={classes.input}
         placeholder='Search'
-        inputProps={{ 'aria-label': 'search google maps' }}
+        inputProps={{ 'aria-label': 'Search' }}
       />
       <IconButton type='submit' className={classes.iconButton} aria-label='search'>
         <SearchIcon />
